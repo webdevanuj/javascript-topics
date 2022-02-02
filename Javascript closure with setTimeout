@@ -5,7 +5,7 @@ for(var i = 0; i < 5; i++) {
 }
 
 <h5>
-  output is <strong>"5,5,5,5,5"</strong> because of setTimeout function and global scope of "var" keyword
+  output is "5,5,5,5,5" because of setTimeout function and global scope of "var" keyword
 </h5>
 
 for(let i = 0; i < 5; i++) {
@@ -15,5 +15,5 @@ for(let i = 0; i < 5; i++) {
 }
 
 <h5>
-  output is <strong>"0,1,2,3,4"</strong> because of setTimeout function and block scope of "let" keyword
+  output is "0,1,2,3,4" because of setTimeout function and block scope of "let" keyword
 </h5>
