@@ -1,0 +1,28 @@
+var x = 10;
+var x = 20;
+console.log(x);
+
+<h5>variable x assign new value to 20</h5>
+
+let x = 10;
+let x = 20;
+console.log(x);
+
+<h5>"Uncaught SyntaxError: Identifier 'x' has already been declared"</h5>
+
+const x = 20;
+const x = 10;
+
+<h5>
+  "Uncaught SyntaxError: Identifier 'x' has already been declared"
+  we cannot reassign or re declare const in same scope
+</h5>
+
+const x = 1;
+
+if (true ) {
+  const x = 2;
+  console.log(x);
+}
+
+console.log("global scope const "+ x);
