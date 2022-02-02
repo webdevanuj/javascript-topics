@@ -1,0 +1,29 @@
+A JavaScript constructor method is a special type of method which is used to initialize and create an object.
+
+- The constructor keyword is used to declare a constructor method.
+- The class can contain one constructor method only.
+- JavaScript allows us to use parent class constructor through super keyword.
+
+The super keyword is used to call the parent class constructor.
+
+//constructor with super keyword
+class StudentCourse 
+{  
+  constructor()  
+  {  
+    this.course="Javascript";  
+  }
+}
+class Student extends StudentCourse {  
+  constructor(id,name) {
+   super();  
+    this.id=id;  
+    this.name=name;  
+  }   
+}     
+var sDetail = new Student(1,"Ankit");  
+console.log(sDetail.id+" "+sDetail.name+" "+sDetail.course);
+
+
+
+If we didn't specify any constructor method, JavaScript use default constructor method.
