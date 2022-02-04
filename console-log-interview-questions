@@ -1,0 +1,48 @@
+Some of the console.log questions ask by the interveiwer
+
+console.log(null == undefined);
+Output - true
+
+console.log(null === undefined);
+Output - false
+
+console.log(1+”1”);
+Output - 11
+
+console.log(1+”A”);
+Output - 1A
+
+console.log(1-”1”);
+Output - 0
+console.log(1-”A”);
+Output - NaN
+
+console.log(1+2+”3”);
+Output - 33
+
+console.log(“1”+2+3);
+Output - 123
+
+console.log(1+”2”+3);
+Output - 123
+
+console.log(1+2+”2”+3);
+Output - 323
+
+console.log(11 || 0);
+Output - 11
+
+console.log(0 || 5);
+Output - 5
+
+console.log(10 || 5);
+Output - 10
+
+console.log(11 && 0);
+Output - 0
+
+console.log(0 && 5);
+Output - 0
+
+console.log(10 && 5);
+Output - 5
